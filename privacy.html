@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Privacy Policy — Fritter</title>
+<style>
+  :root {
+    --bg: #0E0D0B;
+    --surface: #171512;
+    --text: #F2EFE9;
+    --muted: #A19A8C;
+    --accent: #FFB020;
+    --line: #2A2721;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding: 0 20px;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 56px 0 96px; }
+  .brand {
+    display: inline-flex; align-items: center; gap: 10px;
+    font-weight: 700; letter-spacing: .5px; color: var(--text);
+    text-decoration: none; margin-bottom: 40px;
+  }
+  .mark { width: 30px; height: 30px; display: block; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 0 0 6px; }
+  .updated { color: var(--muted); font-size: 14px; margin: 0 0 40px; }
+  h2 { font-size: 20px; margin: 40px 0 12px; }
+  p, li { color: #E4E0D8; }
+  a { color: var(--accent); }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  .lead { font-size: 18px; color: var(--text); }
+  strong { color: var(--text); }
+  .card {
+    background: var(--surface); border: 1px solid var(--line);
+    border-radius: 14px; padding: 4px 22px; margin: 22px 0;
+  }
+  hr { border: none; border-top: 1px solid var(--line); margin: 48px 0; }
+  .foot { color: var(--muted); font-size: 14px; }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0 4px; font-size: 15px; }
+  td { border-top: 1px solid var(--line); padding: 10px 8px; vertical-align: top; color: #E4E0D8; }
+  td:first-child { color: var(--text); font-weight: 600; white-space: nowrap; padding-right: 16px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <span class="brand"><svg class="mark" viewBox="0 0 30 30" aria-hidden="true"><circle cx="15" cy="15" r="9.27" fill="none" stroke="#FFB020" stroke-width="2.05" stroke-linecap="round" stroke-dasharray="46.5 11.75" transform="rotate(88.25 15 15)"/><circle cx="20.29" cy="21.77" r="1.3" fill="#FFB020"/><circle cx="22.39" cy="24.46" r="0.82" fill="#FFB020"/><circle cx="23.99" cy="26.49" r="0.49" fill="#FFB020"/></svg> Fritter</span>
+
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: 12 July 2026</p>
+
+    <p class="lead">Fritter helps you track what you spend. We collect only what the app needs to do that, we never sell your data, and you can delete everything from inside the app at any time.</p>
+
+    <h2>Who we are</h2>
+    <p>Fritter (“Fritter”, “we”, “us”) is the developer of the Fritter mobile application. If you have any question about this policy or your data, contact us at <a href="mailto:support@getfritter.com">support@getfritter.com</a>.</p>
+
+    <h2>Information we collect</h2>
+    <ul>
+      <li><strong>Account information.</strong> When you sign in with Apple, we receive an identifier and the email address associated with your Apple ID. If you use Apple’s “Hide My Email,” we only ever see the private relay address.</li>
+      <li><strong>Spending you log.</strong> The transactions you record — amount, currency, merchant, category, note, and date — plus derived figures like daily totals and streaks.</li>
+      <li><strong>Onboarding answers.</strong> The goals and habits you tell us during setup (for example your saving goal, spending style, age range, and the categories where you feel money leaks). This lets the app personalize its feedback.</li>
+      <li><strong>Photos you choose to scan.</strong> When you scan a receipt or a payment screenshot, the image is sent for one-time processing to read the amount and merchant. <strong>The image is never stored</strong> — not by us and not by our AI provider — and is discarded as soon as the text is extracted. Only the extracted values (which you confirm) are saved.</li>
+      <li><strong>Subscription status.</strong> Whether you have an active subscription and which plan, provided through Apple and our subscription manager. We never see or store your card or payment details.</li>
+      <li><strong>Usage analytics.</strong> Anonymous product events (for example “app opened,” “log created,” “paywall viewed”) that help us understand how the app is used and improve it. These events do not include the content of your spending.</li>
+    </ul>
+
+    <h2>How we use your information</h2>
+    <ul>
+      <li>To run the core features — recording spending, scoring your day, tracking streaks, and generating your weekly insights.</li>
+      <li>To generate AI feedback: reading receipts, one-line verdicts on a spend, answers in the Ask assistant, and your weekly wrap.</li>
+      <li>To manage your subscription and restore purchases.</li>
+      <li>To send the local reminders you turn on (these are scheduled on your device).</li>
+      <li>To understand aggregate usage and fix problems.</li>
+    </ul>
+    <div class="card">
+      <p><strong>We do not sell your personal data,</strong> and we do not use your spending data for advertising.</p>
+    </div>
+
+    <h2>AI processing</h2>
+    <p>Fritter’s AI features are powered by Anthropic’s Claude models. To provide them, we send the relevant data — the transaction details you’re logging, the question you ask, or the receipt image you scan — to Anthropic for processing. Anthropic processes this data to return a result and does not use it to train its models. Images are processed transiently and not retained.</p>
+
+    <h2>Who we share data with</h2>
+    <p>We use a small set of service providers (“sub-processors”) to operate Fritter. They may process your data only to provide their service to us:</p>
+    <table>
+      <tr><td>Supabase</td><td>Secure database, authentication, and backend hosting for your account and spending data.</td></tr>
+      <tr><td>Anthropic</td><td>AI processing for receipt scanning, spend verdicts, the Ask assistant, and weekly insights.</td></tr>
+      <tr><td>Apple</td><td>Sign in with Apple, and processing of subscription payments through the App Store.</td></tr>
+      <tr><td>RevenueCat</td><td>Managing and validating subscription status.</td></tr>
+      <tr><td>PostHog</td><td>Anonymous product analytics.</td></tr>
+    </table>
+    <p>We may also disclose information if required by law, or to protect the rights, safety, and security of our users and our service.</p>
+
+    <h2>Data retention</h2>
+    <p>We keep your account and spending data for as long as your account exists. When you delete your account, your profile and all associated spending data are permanently removed from our systems. Anonymous analytics events that are not tied to your identity may be retained in aggregate.</p>
+
+    <h2>Your rights and choices</h2>
+    <ul>
+      <li><strong>Delete everything.</strong> Go to <em>Settings → Delete account</em> to permanently erase your account and every spend you’ve logged. This cannot be undone.</li>
+      <li><strong>Access and correction.</strong> You can view and edit your data inside the app, or email us to request a copy.</li>
+      <li><strong>Reminders.</strong> You control local reminders in Settings, and notifications in your device’s system settings.</li>
+      <li>Depending on where you live (for example the EU/UK under GDPR, or California under CCPA), you may have additional rights to access, correct, port, or object to the processing of your data. To exercise them, contact us at the email below.</li>
+    </ul>
+
+    <h2>Security</h2>
+    <p>Your data is transmitted over encrypted connections and stored with access controls so that each account can only reach its own data. No method of transmission or storage is completely secure, but we work to protect your information using industry-standard measures.</p>
+
+    <h2>International transfers</h2>
+    <p>Our service providers may process and store data in countries other than your own, including the United States and the European Union. Where required, we rely on appropriate safeguards for these transfers.</p>
+
+    <h2>Children</h2>
+    <p>Fritter is not directed to children under 16, and we do not knowingly collect data from them. If you believe a child has provided us data, contact us and we will delete it.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>We may update this policy from time to time. When we make material changes, we will update the “Last updated” date above and, where appropriate, notify you in the app.</p>
+
+    <h2>Contact</h2>
+    <p>Questions or requests about your privacy: <a href="mailto:support@getfritter.com">support@getfritter.com</a>.</p>
+
+    <hr />
+    <p class="foot">© 2026 Fritter. This policy is provided for transparency and is not legal advice.</p>
+  </div>
+</body>
+</html>
