@@ -28,12 +28,7 @@
     font-weight: 700; letter-spacing: .5px; color: var(--text);
     text-decoration: none; margin-bottom: 40px;
   }
-  .mark {
-    width: 30px; height: 30px; border-radius: 50%;
-    border: 2.5px solid var(--accent);
-    display: grid; place-items: center;
-    font-weight: 800; font-size: 15px; color: var(--accent);
-  }
+  .mark { width: 30px; height: 30px; display: block; }
   h1 { font-size: 30px; line-height: 1.2; margin: 0 0 6px; }
   .updated { color: var(--muted); font-size: 14px; margin: 0 0 40px; }
   h2 { font-size: 20px; margin: 40px 0 12px; }
@@ -53,7 +48,7 @@
 </head>
 <body>
   <div class="wrap">
-    <span class="brand"><span class="mark">F</span> Fritter</span>
+    <span class="brand"><svg class="mark" viewBox="0 0 30 30" aria-hidden="true"><circle cx="15" cy="15" r="9.27" fill="none" stroke="#FFB020" stroke-width="2.05" stroke-linecap="round" stroke-dasharray="46.5 11.75" transform="rotate(88.25 15 15)"/><circle cx="20.29" cy="21.77" r="1.3" fill="#FFB020"/><circle cx="22.39" cy="24.46" r="0.82" fill="#FFB020"/><circle cx="23.99" cy="26.49" r="0.49" fill="#FFB020"/></svg> Fritter</span>
 
     <h1>Terms of Use</h1>
     <p class="updated">Last updated: 12 July 2026</p>
@@ -87,7 +82,7 @@
     <p>You agree not to misuse the app — for example by attempting to break, overload, reverse-engineer, or gain unauthorized access to it or its systems, or by using it in violation of any law.</p>
 
     <h2>7. Your content</h2>
-    <p>The spending data and answers you enter remain yours. You grant us the limited permission needed to store and process that data to provide the app’s features, as described in our <a href="/privacy">Privacy Policy</a>. You can delete all of it at any time from <em>Settings → Delete account</em>.</p>
+    <p>The spending data and answers you enter remain yours. You grant us the limited permission needed to store and process that data to provide the app’s features, as described in our <a href="privacy.html">Privacy Policy</a>. You can delete all of it at any time from <em>Settings → Delete account</em>.</p>
 
     <h2>8. Intellectual property</h2>
     <p>The Fritter app, its name, design, and content (other than your own data) belong to us and are protected by law. These terms don’t give you any right to use our branding without permission.</p>
